@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0">
     <title>滚屏简历</title>
     <link rel="stylesheet" href="css/clear1.css">
     <link rel="stylesheet" href="css/lianxi.css">
@@ -18,13 +18,21 @@
 <div id="fullpage">
     <!-----------------简历首页------------------------>
     <div class="fp-section bg1">
-
+        <img class="bg11" src="img/bg11.png" alt="">
            <div class="title1">
                 <span>My personal resume</span>
                 <p>我的个人简历</p>
            </div>
-            <div class="picture-tou">
-                <img src="img/touxiang.jpg" alt="">
+            <div class="picture-tou1">
+                <!--<img src="img/touxiang.jpg" alt="">-->
+                <div class="box">
+                    <div class="before1"></div>
+                    <div class="after1"></div>
+                    <div class="left1"></div>
+                    <div class="right1"></div>
+                    <div class="top1"></div>
+                    <div class="bottom1"></div>
+                </div>
             </div>
           <div class="name">
            <p>您好,我是关小同</p>
@@ -32,7 +40,7 @@
     </div>
     <!-----------------我是谁------------------------>
     <div class="fp-section bg">
-        <div class="title2">
+        <div class="title2 title-picture1">
             <div class="title2-information">
                 <i class="fa fa-user"></i>
                 <span>我是谁</span>
@@ -41,18 +49,18 @@
             <div class="information">INFORMATION</div>
         </div>
         <div class="picture-tou up1">
-            <img src="img/touxiang.jpg" alt="">
+            <img src="img/01.jpg" alt="">
         </div>
 
 
         <div class="information-content-box">
             <div class="information-content">
-                <p>姓名：关小同</p>
-                <p>出生年月：1994年11月</p>
-                <p>工作年限：1年之内</p>
-                <p>期望职位：web前端工程师</p>
-                <p>专业:人力资源管路</p>
-                <p>毕业院校：河南理工大学万方科技学院</p>
+                <p class="p11">姓名：关小同</p>
+                <p class="p2">出生年月：1994年11月</p>
+                <p class="p3">工作年限：1年</p>
+                <p class="p4">期望职位：web前端工程师</p>
+                <p class="p5">专业:人力资源管路</p>
+                <p class="p6">毕业院校：河南理工大学万方科技学院</p>
             </div>
         </div>
 
@@ -61,7 +69,7 @@
 
     <!-----------------我的技能------------------------>
     <div class="fp-section bg">
-        <div class="title2">
+        <div class="title2 title-picture2">
             <div class="title2-information">
                 <i class="fa fa-cog fa-spin"></i>
                 <span>我的技能</span>
@@ -72,17 +80,17 @@
 
 
         <div class="skills-content">
-            <div class="content1">
+            <div class="content1 content-picture1">
                 <i>css</i>
                 <i>js</i>
             </div>
 
-            <div class="content1">
+            <div class="content1 content-picture2">
                 <i>css3</i>
                 <i>h5</i>
             </div>
 
-            <div class="content1">
+            <div class="content1 content-picture3">
                 <i>jq</i>
                 <i>ps</i>
             </div>
@@ -90,7 +98,7 @@
     </div>
     <!-----------------我都做过------------------------>
     <div class="fp-section bg">
-        <div class="title2">
+        <div class="title2 title-picture3">
             <div class="title2-information">
                 <i class="fa fa-file-text-o"></i>
                 <span>我都做过</span>
@@ -100,21 +108,21 @@
         </div>
 
         <div class="experience-content">
-            <div class="content2">
-                <i>2012.06-2012.09</i>
+            <div class="content2 content2-picture1">
+                <i> 2015/11-2015/12</i>
                 <span class="fa fa-home"></span>
-                <s>公司名称公司职位名称</s>
+                <s>上海佳匠网络</s>
             </div>
-            <div class="content2">
-                <i>2012.06-2012.09</i>
+            <div class="content2 content2-picture2">
+                <i>2016/8-2016/10</i>
                 <span class="fa fa-home"></span>
-                <s>公司名称公司职位名称</s>
+                <s>个人简历打包app</s>
             </div>
 
-            <div class="content2">
-                <i>2012.06-2012.09</i>
+            <div class="content2 content2-picture3">
+                <i>2016/5-2016/7</i>
                 <span class="fa fa-home"></span>
-                <s>公司名称公司职位名称</s>
+                <s>微特融优</s>
             </div>
         </div>
 
@@ -122,7 +130,7 @@
 
     <!-----------------项目经验------------------------>
     <div class="fp-section bg">
-        <div class="title2">
+        <div class="title2 title-picture4">
             <div class="title2-information">
                 <i class="fa fa-chrome fa-spin"></i>
                 <span>项目经验</span>
@@ -134,18 +142,20 @@
         <div class="project-content">
             <div class="content-project">
             <i></i>
-            <p>2016.03-2016.05</p>
-            <p>项目名称</p>
-            <a href="###">http://zhijunxing.com</a>
-            <div>项目内容项目内容项目内容项目内容项目内容项目内容项目内容项目内容项目内容项目内容项目内容项目内容项目内容项目内容</div>
+            <p>2015/11-2015/12</p>
+            <p>彦悦山养生食品有限公司</p>
+            <a href="###">http://www.yanyueshan.com</a>
+            <div>负责静态页面的布局和实现，解决不同的浏览器及不同版本的兼容性问题；</div>
+            <div>项目中呈现该公司产品的图片和文字，负责对公司及其产品的宣传。</div>
             </div>
 
             <div class="content-project">
                 <i></i>
-                <p>2016.03-2016.05</p>
-                <p>项目名称</p>
-                <a href="###">http://zhijunxing.com</a>
-                <div>项目内容项目内容项目内容项目内容项目内容项目内容项目内容项目内容项目内容项目内容项目内容项目内容项目内容项目内容</div>
+                <p>2016/1-2016/4</p>
+                <p>作麻作辣混搭麻辣烫官网</p>
+                <a href="###">http://www.domadola.com</a>
+                <div>负责静态页面的代码编写，对其图片的剪切，用ajax实现后台交互。</div>
+                <div>该项目是对作麻作辣混搭麻辣烫的宣传，主要目的是用来招揽客户加盟。</div>
             </div>
 
         </div>
@@ -153,7 +163,7 @@
 
     <!-----------------我的态度------------------------>
     <div class="fp-section bg">
-        <div class="title2">
+        <div class="title2 title-picture5">
             <div class="title2-information">
                 <i class="fa fa-hand-o-right"></i>
                 <span>我的态度</span>
@@ -163,14 +173,21 @@
         </div>
         <div class="attitude-content">
             <div class="content-attitude">
-            <span>本人</span><p>和独有的U语就会ie接U热IieU热舞融为IU日哦哦无日文就哦哦就Iui级哦哦哦是哦哦送送送卡死搜搜</p>
+            <span>本人</span><p> 有上进心，吃苦耐劳，认真踏实，乐观自信，注重团队协作；</p>
+                            <p> 适应能力比较强，有较强的沟通和组织能力，接受新事物能力强；</p>
+                            <p> 在工作的过程中善于总结，避免重蹈覆辙。</p>
+
             </div>
+        </div>
+        <div class="attitude-img">
+            <img class="img-picture1" src="img/bg52.png" alt="">
+            <img class="img-picture2" src="img/bg51.png" alt="">
         </div>
     </div>
 
     <!-----------------联系我吧------------------------>
     <div class="fp-section bg">
-        <div class="title2">
+        <div class="title2 title-picture6">
             <div class="title2-information">
                 <i class="fa fa-commenting"></i>
                 <span>联系我吧</span>
@@ -194,19 +211,78 @@
 </div>
 
 
-
-<script src="js/jquery-1.8.0.js"></script>
+<script src="js/jquery-3.1.1.min.js"></script>
 <script src="js/jquery.fullPage.min.js"></script>
+<script src="js/move.min.js"></script>
+<script src="js/index.js"></script>
     <script type="text/javascript">
-        /*$(function(){
-            $('#fullpage').fullpage();
-        });*/
-        $('#fullpage').fullpage({
-            anchors:['1','2','3','4','5','6','7'],
-            'navigation': true,
-            'navigationPosition': 'right',
-            'navigationTooltips': ['简历首页', '我是谁', '我的技能', '我都做过','项目经验','我的态度','联系我吧']
-        })
+        $(function(){
+            $('#fullpage').fullpage({
+                anchors:['1','2','3','4','5','6','7'],
+                navigation: true,
+                navigationPosition: 'right',
+                navigationTooltips: ['简历首页', '我是谁', '我的技能', '我都做过','项目经验','我的态度','联系我吧'],
+                afterLoad:function(link,index){
+                     switch(index){
+                         case 1:
+                             firstEnter();
+                             break;
+                         case 2:
+                             secondEnter();
+                             break;
+                         case 3:
+                             thirdEnter();
+                             break;
+                         case 4:
+                             fourthEnter();
+                             break;
+                         case 5:
+                             fifthEnter();
+                             break;
+                         case 6:
+                             sixthEnter();
+                             break;
+                         default:
+                             seventhEnter();
+                             break;
+                     }
+                },
+                onLeave:function(link,index){
+                    switch(index){
+                        case 1:
+                            firstLeave();
+                            break;
+                        case 2:
+                            secondLeave();
+                            break;
+                        case 3:
+                            thirdLeave();
+                            break;
+                        case 4:
+                            fourthLeave();
+                            break;
+                        case 5:
+                            fifthLeave();
+                            break;
+                        case 6:
+                            sixthLeave();
+                            break;
+                        default:
+                            seventhLeave();
+                            break;
+                    }
+
+                },
+                afterRender:function(){
+                    firstEnter();
+                }
+
+
+            })
+
+
+        })();
+
     </script>
 </body>
 </html>
